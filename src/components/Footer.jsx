@@ -81,8 +81,8 @@ function Footer() {
             <h5>Contact Details</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="tel:+44330437830" className="nav-link p-0 text-dark">
-                  <i className="fa-solid fa-phone me-2"></i> +44 3304 37830
+                <a href="tel:+443300435830" className="nav-link p-0 text-dark">
+                  <i className="fa-solid fa-phone me-2"></i> +44 330 0435 830
                 </a>
               </li>
               <li className="nav-item mb-2 d-flex align-items-center">
