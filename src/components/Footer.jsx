@@ -138,12 +138,12 @@ function Footer() {
               </a>
             </li>
             <li className="ms-3">
-              <a className="link-body-emphasis" href="#">
+              <a className="link-body-emphasis" href=" https://www.linkedin.com/company/innovex-resource-group" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </li>
             <li className="ms-3">
-              <a className="link-body-emphasis" href="#">
+              <a className="link-body-emphasis" href="https://www.instagram.com/irg__ltd?igsh=aHJvdnVkNGh6empj&utm_source=qr" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
