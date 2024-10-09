@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#innovexLogo{
+    width: 40%;
+    height:100%;
+    margin-left: 5%;
+}
+
+.NavBar-mainClass{
+    /* padding: 2%; */
+    display: flex;
+    justify-content: space-between;
+}
+.logoDiv{
+    width: 22%;
+    margin-left: 2%;
+}
+.ul-Nav-div {
+    width: 35%;
+    float: right;
+}
+.ul-li-class{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: flex-end;
+}
+.ul-li-class>li{
+list-style: none;
+margin-left: 4%;
+font-size: 1.4rem;
+font-weight: 480;
+
+}
+#heroimages{
+    width: 100%;
+    object-fit: cover;
+}
+.Heading{
+    margin-top: 1rem;
+    font-weight: 750;
+    font-size: 1.2rem !important;  
+    color: black;
+}
+.WhyUS-ParentDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem
+}
+.whyUS-left{
+    width: 100%;
+    padding: 4%;
+}
+.whyUS-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%
+  
+}
+#consultationImg{
+    width: 100%;
+    
+}
+.whyUs-right-h2{
+  
+
+ 
+    font-weight: 900 !important;
+    /* line-height: 5rem !important; */
+    font-size: 3rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+    
+}
+.whyUs-right-p{
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: black;
+    width: 90%;
+    text-align: justify;
+    margin-top: 2%;
+}
+#fontIcons{
+    display: flex;
+ 
+    font-weight: 450;
+    margin-top: 1rem;
+}
+.fontIcons-parent{
+    display: flex;
+ 
+    width: 50%;
+    font-size: 1.2rem;
+}
+#fontIcon-content{
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+.fa-solid{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.fa-solid:hover{
+    font-weight: 900 !important;
+    /* line-height: 5rem !important; */
+    font-size: 2.2rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+}
+.Services-heading{
+    font-weight: 900 !important;
+    line-height: 5rem !important;
+    font-size: 3rem !important;  
+    text-align: center;
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+}
+.services-p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.services-span{
+   font-weight: bold;
+}
+.servicesgrid-parent{
+display: flex;
+justify-content: space-around; 
+margin-top: 2rem;
+margin-bottom: 2rem;   
+}
+.servicesgrid{
+    box-shadow: 0px 0px 10px 0px rgba(40, 71.00000000000003, 197.00000000000003, 0.2);
+    padding: 4%;
+    width: 28%;
+  
+    
+}
+.servicesgrid>h2{
+    font-size: 1.2rem;
+}
+.servicesgrid:hover{
+    background-color: rgba(40, 71.00000000000003, 197.00000000000003, 0.2);
+}
+#handi{
+    font-size: 2rem;
+}
+#handi:hover{
+    font-weight: 900 !important;
+    /* line-height: 5rem !important; */
+    font-size: 2.2rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Process section begin */
+
+.ProcessParent{
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.ourProcess-left{
+    width: 100%;
+    margin-top: 5%;
+}
+.ourProcess-right{
+    width: 100%;
+}
+#processImg{
+    width: 100%;
+    float: right;
+    
+}
+.ourProcessHeading{
+    width: 70%;
+    font-weight: 900 !important;
+    /* line-height: 5rem !important; */
+    font-size: 2.2rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+}
+.ourprocess-p{
+    width: 85%;
+    text-align: justify;
+    margin-top: 2%;
+}
+/* .appointment-process-parent{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+}
+.Appointment-process{
+    margin-top: 4%
+}
+
+.Appointment-process>span{
+    font-size: 1rem;
+    font-weight: 500;
+   
+} */
+
+#access1{
+    margin-left: 5%;
+}
+#access2{
+    margin-left: 8%;
+}
+#access3{
+   margin-left: 0
+}
+#access4{
+    margin-left: 4%;
+}
+/* #handi2{
+    font-size: 2rem;
+    color: blue;
+}
+#handi2:hover{
+
+    font-weight: 900 !important;
+  
+    font-size: 2.2rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+} */
+.appointment-process-parent {
+    display: flex;
+    flex-direction: row; /* Change this to row */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-around; /* Center the items */
+  }
+  
+  .Appointment-process {
+    margin-top: 4%;
+    flex: 1 1 45%; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 48%; /* Ensures no more than 2 in a row */
+    box-sizing: border-box; /* Ensure padding/margins don't affect width */
+  }
+  
+  .Appointment-process > span {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  #handi2 {
+    font-size: 2rem;
+    color: blue;
+  }
+  
+  #handi2:hover {
+    font-weight: 900 !important;
+    font-size: 2.2rem !important;
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+  }
+  
+/* web development */
+
+#devImg{
+    width: 100%;
+    float: left;
+}
+.webDevProcess{
+
+        width: 100%;
+
+        margin-left: 5%;
+   
+}
+#webProcessIcon{
+    margin-left: 2%;
+}
+#webProcessIcon2{
+    margin-left: 5%;
+}
+#webProcessIcon3{
+    margin-left: 1%;
+}
+#access3{
+    margin-left: 5%;
+}
+.tempRec-Parent>p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#perma-Img{
+    width: 100%;
+}
+.perma-Rec-Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 3%;
+}
+.perma-Rec-content{
+    width: 100%;
+
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.per-temp-tec-parent{
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+.recHeading{
+    font-weight: 900 !important;
+    /* line-height: 5rem !important; */
+    font-size: 2.2rem !important;  
+    background: url(./images/colour-1a-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+/* footer */
+.img-thumbnail{
+    border: none;
+}
+#cc-details{
+    margin-right: 5%
+}
+#c-details{
+   width: 35%;
+}
+#footerItem{
+    width: 200%;
+}
+
+.c_form{
+    width: 50%;
+    margin-top: 2rem;
+}
+.parent-div-c-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:998px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+Link{
+    text-decoration: none;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+  @media (max-width: 768px) {
+    .WhyUS-ParentDiv {
+      flex-direction: column; /* Change to column on smaller screens */
+    }
+  
+    .whyUS-left {
+      width: 100%; /* Ensure full width on mobile screens */
+    }
+    .whyUS-right {
+        margin-left: 5%;
+        
+        width: 100%;
+        
+    }
+   
+    #consultationImg {
+      width: 100%; /* Make the image responsive */
+      margin-bottom: 20px; /* Add margin below the image for spacing */
+    }
+
+
+
+    servicesgrid-parent {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets and smaller devices */
+        gap: 15px; /* Reduce gap for mobile */
+      }
+    
+      /* Mobile Font Adjustments */
+      .services-heading {
+        font-size: 1.5rem; /* Reduce heading size */
+      }
+    
+      .services-p {
+        font-size: 0.9rem; /* Slightly smaller paragraph text */
+        padding: 0 10px;
+      }
+    
+      .servicesgrid h2 {
+        font-size: 1.2rem; /* Adjust heading size inside grid */
+      }
+    
+      #handi {
+        font-size: 1.5rem; /* Adjust icon size */
+      }
+
+/* our process */
+
+/* .ProcessParent {
+    flex-direction: column;
+  }
+  .ourProcessHeading {
+    width: 61%;
+   
+}
+  .ourProcess-left, .ourProcess-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #processImg, #devImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .appointment-process-parent {
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+  }
+
+  
+
+  .Appointment-process {
+    flex: 1 1 48%;
+    max-width: 48%; 
+} */
+  /* temp and per recruitment */
+
+  .nav {
+    flex-direction: row; /* Makes items display in a row */
+    justify-content: space-between; /* Spreads out the items */
+  }
+
+  
+ 
+  }
+
+
+
+
+
+  @media (max-width: 480px) {
+    .servicesgrid-parent {
+      grid-template-columns: 1fr; /* 1 column per row on very small screens */
+    }
+  
+    .servicesgrid {
+      padding: 10px; /* Reduce padding */
+    }
+  
+    .services-heading {
+      font-size: 1.2rem; /* Even smaller heading for tiny devices */
+    }
+  
+    .services-p {
+      font-size: 0.8rem; /* Smaller text for better readability */
+    }
+  
+    #handi {
+      font-size: 1.2rem; /* Smallest icon size */
+    }
+  }
+
+  .parent-div-c-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    margin: 20px; /* Add margin */
+  }
+  
+  .object-fit-contain {
+    width: 100%; /* Make sure it takes full width */
+  }
+  
+  .c_form {
+    width: 100%; /* Ensure the form takes full width */
+    max-width: 600px; /* Limit the maximum width */
+    margin-top: 20px; /* Space between map and form */
+  }
+  
