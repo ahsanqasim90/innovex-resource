@@ -1,8 +1,26 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
+
 function Services() {
   return (
     <div id="services">
+       <Helmet>
+        <title>Top Healthcare Recruitment & Web Development Services UK | Innovex</title>
+        <meta
+          name="description"
+          content="Discover premium healthcare recruitment services and web development solutions by Innovex Resource Group. Specializing in care home staffing, assisted living, and digital growth."
+        />
+        <meta
+          name="keywords"
+          content="healthcare recruitment UK, staffing agency, nursing staff UK, care home hiring, assisted living services, web development UK, Innovex Resource Group"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://www.innovexresourcegroup.com/services"
+        />
+      </Helmet>
       <div className="ServicesParent" >
         <h2 className="Services-heading">Our Services</h2>
         <p className="services-p">

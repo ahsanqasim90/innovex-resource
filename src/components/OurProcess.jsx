@@ -2,10 +2,25 @@ import React from 'react'
 import Process from '../images/Process.png';
 import webDev from '../images/development.png'
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
+
+
 function OurProcess(){
     return(
         <div>
         <div className='ProcessParent'>
+        <Helmet>
+        <title>Our Recruitment & Web Development Process | Innovex Resource Group</title>
+        <meta name="description" content="Learn how Innovex Resource Group simplifies healthcare recruitment and web development. Trusted UK staffing and development agency." />
+        <meta name="keywords" content="healthcare recruitment process UK, web development UK, care home staffing, nurse hiring process, software solutions" />
+        <link rel="canonical" href="https://www.innovexresourcegroup.com/our-process" />
+        <meta property="og:title" content="Our Process - Innovex Resource Group" />
+        <meta property="og:description" content="Explore our step-by-step recruitment and web development processes designed to deliver quality and ease to clients across the UK." />
+        <meta property="og:image" content="https://www.innovexresourcegroup.com/images/og-banner.png" />
+        <meta property="og:url" content="https://www.innovexresourcegroup.com/our-process" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+
 <div className='ourProcess-left'>
     <h6 className='Heading'>Our Process</h6>
     <h2 className='ourProcessHeading'>Easy Guide to Securing Home Care Services</h2>

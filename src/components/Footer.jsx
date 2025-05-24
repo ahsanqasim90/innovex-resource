@@ -1,14 +1,27 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import innovex2 from "../images/innovex2.png";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="container-fluid bg-light">
+    <>
+      <Helmet>
+        <title>Innovex Resource Group | Recruitment & Staffing Solutions UK</title>
+        <meta name="description" content="Innovex Resource Group offers expert recruitment and staffing services in the UK. Contact us for healthcare and other industry hiring solutions." />
+        <meta name="keywords" content="Recruitment, Staffing, Healthcare jobs, Innovex, UK recruitment agency, hiring solutions" />
+        <meta name="author" content="Innovex Resource Group" />
+        {/* Open Graph for social sharing */}
+        <meta property="og:title" content="Innovex Resource Group | Recruitment & Staffing Solutions UK" />
+        <meta property="og:description" content="Innovex Resource Group offers expert recruitment and staffing services in the UK. Contact us for healthcare and other industry hiring solutions." />
+        <meta property="og:image" content="/path-to-your-logo-or-image.png" />
+        <meta property="og:url" content="https://www.innovexresourcegroup.co.uk" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {" "}
       {/* Ensure full width responsiveness */}
-      <footer className="py-5">
+      <footer className="py-0">
         <div className="row">
           <div className="col-12 col-md-2 mb-3 d-flex justify-content-center justify-content-md-start">
             {" "}
@@ -17,7 +30,7 @@ function Footer() {
               src={innovex2}
               className="img-fluid"
               alt="Innovex Logo"
-              style={{ maxWidth: "10rem", height: "8rem" }}
+              style={{ height: "50%", width: "auto" , marginLeft: "10%"}}
             />{" "}
             {/* Use img-fluid for responsive image */}
           </div>
@@ -149,8 +162,9 @@ function Footer() {
             </li>
           </ul>
         </div>
-      </footer>
-    </div>
+        </footer>
+      
+    </>
   );
 }
 
